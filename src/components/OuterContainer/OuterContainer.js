@@ -9,7 +9,7 @@ const OuterContainer = () => {
     <div className="OuterContainer">
       <OuterCard />
 
-      <p className="footer">Challenge by Frontend Mentor. Coded by <a href="https://www.frontendmentor.io/profile/Temitayooyelowo" target="_blank">Tayo</a></p>
+      <p className="footer">Challenge by Frontend Mentor. Coded by <a href="https://www.frontendmentor.io/profile/Temitayooyelowo" target="_blank" rel="noreferrer">Tayo</a></p>
     </div>
   );
 };
