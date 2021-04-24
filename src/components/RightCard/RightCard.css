@@ -1,0 +1,29 @@
+.RightCard {
+  width: 50%;
+  position: relative;
+}
+
+.RightCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: hsl(277, 64%, 61%);
+  z-index: 999;
+} */
+
+.RightCard::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: hsla(277, 64%, 61%, 0.5);
+  /* opacity: 0.6; */
+}

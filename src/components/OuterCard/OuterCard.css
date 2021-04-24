@@ -1,0 +1,15 @@
+.OuterCard {
+  background-color: hsl(244, 38%, 16%);
+  width: 90%;
+  min-height: 550px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.innerCard {
+  width: 50%;
+}
+
+.OuterCard {
+  display: flex;
+}
